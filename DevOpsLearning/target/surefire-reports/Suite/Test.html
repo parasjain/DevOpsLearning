@@ -1,0 +1,201 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 06 17:53:48 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>11 seconds (11295 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.telus.testannotation.RegisterUserDemo.validateSuccessFullMsg()'><b>validateSuccessFullMsg</b><br>Test class: com.telus.testannotation.RegisterUserDemo<br/>
+<a href="#Output-507583873" onClick='toggleBox("Output-507583873", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-507583873" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-507583873">
+******************************************************************************<br/>
+Registration Successfull is Displayed<br/>
+Transaction ID is NXTGEN1937465<br/>
+Actual message -> Registration Form is Successfully Submitted. The Transaction ID : NXTGEN1937465<br/>
+Validation is Successfull<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.telus.testannotation.RegisterUserDemo@6631f5ca</td></tr>
+<tr>
+<td title='com.telus.testannotation.RegisterUserDemo.navigateToRegistraionForm()'><b>navigateToRegistraionForm</b><br>Test class: com.telus.testannotation.RegisterUserDemo<br/>
+<a href="#Output-1475842502" onClick='toggleBox("Output-1475842502", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1475842502" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1475842502">
+Registration Title is Displayed<br/>
+Registration Title is Matched<br/>
+Registraion Form opened Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.telus.testannotation.RegisterUserDemo@6631f5ca</td></tr>
+<tr>
+<td title='com.telus.testannotation.RegisterUserDemo.registerUser()'><b>registerUser</b><br>Test class: com.telus.testannotation.RegisterUserDemo<br/>
+<a href="#Output-1647402786" onClick='toggleBox("Output-1647402786", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1647402786" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1647402786">
+******************************************************************************<br/>
+First name is Enabled<br/>
+First name is Paras<br/>
+******************************************************************************<br/>
+Last name is Enabled<br/>
+Last name is Jain<br/>
+******************************************************************************<br/>
+Male is not Selected<br/>
+Male is now Selected<br/>
+******************************************************************************<br/>
+Address is Enabled<br/>
+Address is Keshavkunj<br/>
+******************************************************************************<br/>
+Street is Enabled<br/>
+Street is Govindpuram<br/>
+******************************************************************************<br/>
+City is Enabled<br/>
+City is Ghaziabad<br/>
+******************************************************************************<br/>
+State is Enabled<br/>
+State is Uttarpradesh<br/>
+******************************************************************************<br/>
+Zip-code is Enabled<br/>
+Zip-code is 201013<br/>
+******************************************************************************<br/>
+Country dropdown Enabled<br/>
+Country dropdown India<br/>
+******************************************************************************<br/>
+E-Mail is Enabled<br/>
+E-Mail is parasjain@gmail.com<br/>
+******************************************************************************<br/>
+Date of Demo is Enabled<br/>
+Date of Demo is 01/08/2022<br/>
+******************************************************************************<br/>
+Hour is Enabled<br/>
+Hour is 08<br/>
+Minutes is Enabled<br/>
+Minutes is 55<br/>
+******************************************************************************<br/>
+Mobile Number is Enabled<br/>
+Mobile Number is 5557894561<br/>
+******************************************************************************<br/>
+Query is Enabled<br/>
+Query is Enter your query<br/>
+******************************************************************************<br/>
+Core Java checkbox is not Selected<br/>
+Core Java checkbox is now Selected<br/>
+Test NG checkbox is not Selected<br/>
+Test NG checkbox is now Selected<br/>
+******************************************************************************<br/>
+Two-Digits are Enabled<br/>
+Two Digits are : 99<br/>
+******************************************************************************<br/>
+Submit button is Enabled<br/>
+Submit button is Clicked<br/>
+User Registered Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.telus.testannotation.RegisterUserDemo@6631f5ca</td></tr>
+<tr>
+<td title='com.telus.testannotation.RegisterUserDemo.launchApplication()'><b>launchApplication</b><br>Test class: com.telus.testannotation.RegisterUserDemo<br/>
+<a href="#Output-1972326147" onClick='toggleBox("Output-1972326147", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1972326147" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1972326147">
+Application Launched Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.telus.testannotation.RegisterUserDemo@6631f5ca</td></tr>
+<tr>
+<td title='com.telus.testannotation.RegisterUserDemo.closeApplication()'><b>closeApplication</b><br>Test class: com.telus.testannotation.RegisterUserDemo<br/>
+<a href="#Output-1404669942" onClick='toggleBox("Output-1404669942", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1404669942" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1404669942">
+Application Closed Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.telus.testannotation.RegisterUserDemo@6631f5ca</td></tr>
+</table><p>
+</body>
+</html>

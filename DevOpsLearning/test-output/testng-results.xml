@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Application Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Registration Title is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Registration Title is Matched]]>
+    </line>
+    <line>
+      <![CDATA[Registraion Form opened Successfully]]>
+    </line>
+    <line>
+      <![CDATA[******************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[First name is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[First name is Paras]]>
+    </line>
+    <line>
+      <![CDATA[******************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Last name is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Last name is Jain]]>
+    </line>
+    <line>
+      <![CDATA[******************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Male is not Selected]]>
+    </line>
+    <line>
+      <![CDATA[Male is now Selected]]>
+    </line>
+    <line>
+      <![CDATA[******************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Address is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Address is Keshavkunj]]>
+    </line>
+    <line>
+      <![CDATA[******************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Street is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Street is Govindpuram]]>
+    </line>
+    <line>
+      <![CDATA[******************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[City is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[City is Ghaziabad]]>
+    </line>
+    <line>
+      <![CDATA[******************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[State is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[State is Uttarpradesh]]>
+    </line>
+    <line>
+      <![CDATA[******************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Zip-code is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Zip-code is 201013]]>
+    </line>
+    <line>
+      <![CDATA[******************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Country dropdown Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Country dropdown India]]>
+    </line>
+    <line>
+      <![CDATA[******************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[E-Mail is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[E-Mail is parasjain@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[******************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Date of Demo is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Date of Demo is 01/08/2022]]>
+    </line>
+    <line>
+      <![CDATA[******************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Hour is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Hour is 08]]>
+    </line>
+    <line>
+      <![CDATA[Minutes is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Minutes is 55]]>
+    </line>
+    <line>
+      <![CDATA[******************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Mobile Number is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Mobile Number is 5557894561]]>
+    </line>
+    <line>
+      <![CDATA[******************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Query is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Query is Enter your query]]>
+    </line>
+    <line>
+      <![CDATA[******************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Core Java checkbox is not Selected]]>
+    </line>
+    <line>
+      <![CDATA[Core Java checkbox is now Selected]]>
+    </line>
+    <line>
+      <![CDATA[Test NG checkbox is not Selected]]>
+    </line>
+    <line>
+      <![CDATA[Test NG checkbox is now Selected]]>
+    </line>
+    <line>
+      <![CDATA[******************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Two-Digits are Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Two Digits are : 99]]>
+    </line>
+    <line>
+      <![CDATA[******************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Submit button is Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Submit button is Clicked]]>
+    </line>
+    <line>
+      <![CDATA[User Registered Successfully]]>
+    </line>
+    <line>
+      <![CDATA[******************************************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Registration Successfull is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Transaction ID is NXTGEN1937465]]>
+    </line>
+    <line>
+      <![CDATA[Actual message -> Registration Form is Successfully Submitted. The Transaction ID : NXTGEN1937465]]>
+    </line>
+    <line>
+      <![CDATA[Validation is Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Application Closed Successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-10T17:06:45 IST" name="Sanity Suite" finished-at="2022-08-10T17:06:56 IST" duration-ms="11666">
+    <groups>
+    </groups>
+    <test started-at="2022-08-10T17:06:45 IST" name="ReportRegisterUserDemo" finished-at="2022-08-10T17:06:56 IST" duration-ms="11666">
+      <class name="com.telus.testannotation.RegisterUserDemo">
+        <test-method signature="launchApplication()[pri:1, instance:com.telus.testannotation.RegisterUserDemo@58695725]" started-at="2022-08-10T17:06:45 IST" name="launchApplication" finished-at="2022-08-10T17:06:51 IST" duration-ms="6319" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="navigateToRegistraionForm()[pri:2, instance:com.telus.testannotation.RegisterUserDemo@58695725]" started-at="2022-08-10T17:06:51 IST" name="navigateToRegistraionForm" finished-at="2022-08-10T17:06:53 IST" duration-ms="2313" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Registration Title is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Registration Title is Matched]]>
+            </line>
+            <line>
+              <![CDATA[Registraion Form opened Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToRegistraionForm -->
+        <test-method signature="registerUser()[pri:3, instance:com.telus.testannotation.RegisterUserDemo@58695725]" started-at="2022-08-10T17:06:53 IST" name="registerUser" finished-at="2022-08-10T17:06:56 IST" duration-ms="2870" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[******************************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[First name is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[First name is Paras]]>
+            </line>
+            <line>
+              <![CDATA[******************************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Last name is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Last name is Jain]]>
+            </line>
+            <line>
+              <![CDATA[******************************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Male is not Selected]]>
+            </line>
+            <line>
+              <![CDATA[Male is now Selected]]>
+            </line>
+            <line>
+              <![CDATA[******************************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Address is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Address is Keshavkunj]]>
+            </line>
+            <line>
+              <![CDATA[******************************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Street is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Street is Govindpuram]]>
+            </line>
+            <line>
+              <![CDATA[******************************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[City is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[City is Ghaziabad]]>
+            </line>
+            <line>
+              <![CDATA[******************************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[State is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[State is Uttarpradesh]]>
+            </line>
+            <line>
+              <![CDATA[******************************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Zip-code is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Zip-code is 201013]]>
+            </line>
+            <line>
+              <![CDATA[******************************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Country dropdown Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Country dropdown India]]>
+            </line>
+            <line>
+              <![CDATA[******************************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[E-Mail is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[E-Mail is parasjain@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[******************************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Date of Demo is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Date of Demo is 01/08/2022]]>
+            </line>
+            <line>
+              <![CDATA[******************************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Hour is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Hour is 08]]>
+            </line>
+            <line>
+              <![CDATA[Minutes is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Minutes is 55]]>
+            </line>
+            <line>
+              <![CDATA[******************************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Mobile Number is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Mobile Number is 5557894561]]>
+            </line>
+            <line>
+              <![CDATA[******************************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Query is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Query is Enter your query]]>
+            </line>
+            <line>
+              <![CDATA[******************************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Core Java checkbox is not Selected]]>
+            </line>
+            <line>
+              <![CDATA[Core Java checkbox is now Selected]]>
+            </line>
+            <line>
+              <![CDATA[Test NG checkbox is not Selected]]>
+            </line>
+            <line>
+              <![CDATA[Test NG checkbox is now Selected]]>
+            </line>
+            <line>
+              <![CDATA[******************************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Two-Digits are Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Two Digits are : 99]]>
+            </line>
+            <line>
+              <![CDATA[******************************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Submit button is Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Submit button is Clicked]]>
+            </line>
+            <line>
+              <![CDATA[User Registered Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method signature="validateSuccessFullMsg()[pri:4, instance:com.telus.testannotation.RegisterUserDemo@58695725]" started-at="2022-08-10T17:06:56 IST" name="validateSuccessFullMsg" finished-at="2022-08-10T17:06:56 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[******************************************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Registration Successfull is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Transaction ID is NXTGEN1937465]]>
+            </line>
+            <line>
+              <![CDATA[Actual message -> Registration Form is Successfully Submitted. The Transaction ID : NXTGEN1937465]]>
+            </line>
+            <line>
+              <![CDATA[Validation is Successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSuccessFullMsg -->
+        <test-method signature="closeApplication()[pri:5, instance:com.telus.testannotation.RegisterUserDemo@58695725]" started-at="2022-08-10T17:06:56 IST" name="closeApplication" finished-at="2022-08-10T17:06:56 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Closed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.telus.testannotation.RegisterUserDemo -->
+    </test> <!-- ReportRegisterUserDemo -->
+  </suite> <!-- Sanity Suite -->
+</testng-results>

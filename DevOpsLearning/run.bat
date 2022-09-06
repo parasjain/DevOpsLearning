@@ -1,0 +1,2 @@
+C:\SeleniumAutomation\EclipseWorkspace\DevOpsLearning
+mvn clean install
