@@ -27,7 +27,7 @@ public class RegisterUserDemo {
 	String dOD = "01/08/2022";                  //Date of Demo
 	String conTimeHr = "08";                    //Hour Selection
 	String conTimeMin = "55";                   //Minute Selection
-	String mobileNum = "5557894561";            //Mobile number
+	String mobileNum = "8745999499";            //Mobile number
 	String query ="Enter your query"; 
 
 	@Test(priority=1)
