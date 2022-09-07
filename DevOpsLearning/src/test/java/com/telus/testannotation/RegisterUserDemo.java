@@ -88,7 +88,7 @@ public class RegisterUserDemo {
 		}
 		else
 		{
-			Reporter.log("Registration is not Displayed");
+			Reporter.log("Registration is not Displayed ");
 		}
 
 		Reporter.log("Registraion Form opened Successfully");
