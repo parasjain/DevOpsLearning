@@ -200,19 +200,19 @@
       <![CDATA[Application Closed Successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-09-06T18:01:52 IST" name="Suite" finished-at="2022-09-06T18:02:07 IST" duration-ms="15767">
+  <suite started-at="2022-09-07T16:52:05 IST" name="Suite" finished-at="2022-09-07T16:52:17 IST" duration-ms="12294">
     <groups>
     </groups>
-    <test started-at="2022-09-06T18:01:52 IST" name="Test" finished-at="2022-09-06T18:02:07 IST" duration-ms="15767">
+    <test started-at="2022-09-07T16:52:05 IST" name="Test" finished-at="2022-09-07T16:52:17 IST" duration-ms="12294">
       <class name="com.telus.testannotation.RegisterUserDemo">
-        <test-method signature="launchApplication()[pri:1, instance:com.telus.testannotation.RegisterUserDemo@6631f5ca]" started-at="2022-09-06T18:01:52 IST" name="launchApplication" finished-at="2022-09-06T18:01:58 IST" duration-ms="6474" status="PASS">
+        <test-method signature="launchApplication()[pri:1, instance:com.telus.testannotation.RegisterUserDemo@6631f5ca]" started-at="2022-09-07T16:52:05 IST" name="launchApplication" finished-at="2022-09-07T16:52:10 IST" duration-ms="5478" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application Launched Successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="navigateToRegistraionForm()[pri:2, instance:com.telus.testannotation.RegisterUserDemo@6631f5ca]" started-at="2022-09-06T18:01:58 IST" name="navigateToRegistraionForm" finished-at="2022-09-06T18:02:00 IST" duration-ms="1850" status="PASS">
+        <test-method signature="navigateToRegistraionForm()[pri:2, instance:com.telus.testannotation.RegisterUserDemo@6631f5ca]" started-at="2022-09-07T16:52:10 IST" name="navigateToRegistraionForm" finished-at="2022-09-07T16:52:12 IST" duration-ms="1609" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Registration Title is Displayed]]>
@@ -225,7 +225,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- navigateToRegistraionForm -->
-        <test-method signature="registerUser()[pri:3, instance:com.telus.testannotation.RegisterUserDemo@6631f5ca]" started-at="2022-09-06T18:02:00 IST" name="registerUser" finished-at="2022-09-06T18:02:03 IST" duration-ms="3261" status="PASS">
+        <test-method signature="registerUser()[pri:3, instance:com.telus.testannotation.RegisterUserDemo@6631f5ca]" started-at="2022-09-07T16:52:12 IST" name="registerUser" finished-at="2022-09-07T16:52:14 IST" duration-ms="2747" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[******************************************************************************]]>
@@ -397,7 +397,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- registerUser -->
-        <test-method signature="validateSuccessFullMsg()[pri:4, instance:com.telus.testannotation.RegisterUserDemo@6631f5ca]" started-at="2022-09-06T18:02:03 IST" name="validateSuccessFullMsg" finished-at="2022-09-06T18:02:03 IST" duration-ms="55" status="PASS">
+        <test-method signature="validateSuccessFullMsg()[pri:4, instance:com.telus.testannotation.RegisterUserDemo@6631f5ca]" started-at="2022-09-07T16:52:14 IST" name="validateSuccessFullMsg" finished-at="2022-09-07T16:52:14 IST" duration-ms="46" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[******************************************************************************]]>
@@ -416,7 +416,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- validateSuccessFullMsg -->
-        <test-method signature="closeApplication()[pri:5, instance:com.telus.testannotation.RegisterUserDemo@6631f5ca]" started-at="2022-09-06T18:02:03 IST" name="closeApplication" finished-at="2022-09-06T18:02:07 IST" duration-ms="4061" status="PASS">
+        <test-method signature="closeApplication()[pri:5, instance:com.telus.testannotation.RegisterUserDemo@6631f5ca]" started-at="2022-09-07T16:52:14 IST" name="closeApplication" finished-at="2022-09-07T16:52:17 IST" duration-ms="2360" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application Closed Successfully]]>

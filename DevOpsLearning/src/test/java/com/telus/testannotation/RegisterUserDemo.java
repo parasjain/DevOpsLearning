@@ -43,7 +43,7 @@ public class RegisterUserDemo {
 
 		driver.manage().window().maximize();
 
-		Reporter.log("Application Launched Successfully");
+		System.out.println("Application Launched Successfully");
 	}
 	
 	@Test(priority=2)
@@ -75,30 +75,30 @@ public class RegisterUserDemo {
 
 		if(regTitle.isDisplayed())
 		{
-			Reporter.log("Registration Title is Displayed");	
+			System.out.println("Registration Title is Displayed");	
 
 			if(actTitle.equals(expTitle))
 			{
-				Reporter.log("Registration Title is Matched");
+				System.out.println("Registration Title is Matched");
 			}
 			else
 			{
-				Reporter.log("Registration Title is not Matched");
+				System.out.println("Registration Title is not Matched");
 			}
 		}
 		else
 		{
-			Reporter.log("Registration is not Displayed");
+			System.out.println("Registration is not Displayed");
 		}
 
-		Reporter.log("Registraion Form opened Successfully");
+		System.out.println("Registraion Form opened Successfully");
 	}
 	
 	@Test(priority=3)
 	public void registerUser() {
 		// First Name
 
-		Reporter.log("******************************************************************************");
+		System.out.println("******************************************************************************");
 
 		// -> Checking First Name are entered or not, If not entered then value will be inserted.
 
@@ -106,19 +106,19 @@ public class RegisterUserDemo {
 
 		if(fName.isEnabled()) 
 		{
-			Reporter.log("First name is Enabled");
+			System.out.println("First name is Enabled");
 			fName.sendKeys(fNameValue);
-			Reporter.log("First name is "+ fNameValue);
+			System.out.println("First name is "+ fNameValue);
 
 		}
 		else
 		{
-			Reporter.log("First name is disabled");
+			System.out.println("First name is disabled");
 		}
 
 		// Last Name
 
-		Reporter.log("******************************************************************************");
+		System.out.println("******************************************************************************");
 
 		// -> Checking Last Name are entered or not, If not entered then value will be inserted.
 
@@ -126,19 +126,19 @@ public class RegisterUserDemo {
 
 		if(lName.isEnabled()) 
 		{
-			Reporter.log("Last name is Enabled");
+			System.out.println("Last name is Enabled");
 			lName.sendKeys(lNameValue);
-			Reporter.log("Last name is "+ lNameValue);
+			System.out.println("Last name is "+ lNameValue);
 
 		}
 		else
 		{
-			Reporter.log("Last name is disabled");
+			System.out.println("Last name is disabled");
 		}
 
 		// Radio Button
 
-		Reporter.log("******************************************************************************");
+		System.out.println("******************************************************************************");
 
 		// -> Checking Female radio button is Selected or not, If not then select the value.
 
@@ -146,19 +146,19 @@ public class RegisterUserDemo {
 
 		if(radBtn.isSelected()) 
 		{
-			Reporter.log("Male is Selected");
+			System.out.println("Male is Selected");
 		}
 		else
 		{
-			Reporter.log("Male is not Selected");
+			System.out.println("Male is not Selected");
 			radBtn.click();
-			Reporter.log("Male is now Selected");
+			System.out.println("Male is now Selected");
 		}
 
 
 		// Address
 
-		Reporter.log("******************************************************************************");
+		System.out.println("******************************************************************************");
 
 		// -> Checking Address are entered or not, If not entered then value will be inserted.		
 
@@ -166,19 +166,19 @@ public class RegisterUserDemo {
 
 		if(address.isEnabled()) 
 		{
-			Reporter.log("Address is Enabled");
+			System.out.println("Address is Enabled");
 			address.sendKeys(addressI);
-			Reporter.log("Address is "+ addressI);
+			System.out.println("Address is "+ addressI);
 
 		}
 		else
 		{
-			Reporter.log("Address name is disabled");
+			System.out.println("Address name is disabled");
 		}
 
 		//Street Address
 
-		Reporter.log("******************************************************************************");
+		System.out.println("******************************************************************************");
 
 		// -> Checking Street are entered or not, If not entered then value will be inserted.
 
@@ -186,19 +186,19 @@ public class RegisterUserDemo {
 
 		if(streetAddress.isEnabled()) 
 		{
-			Reporter.log("Street is Enabled");
+			System.out.println("Street is Enabled");
 			streetAddress.sendKeys(addressI);
-			Reporter.log("Street is "+ streetAddressI);
+			System.out.println("Street is "+ streetAddressI);
 
 		}
 		else
 		{
-			Reporter.log("Street name is disabled");
+			System.out.println("Street name is disabled");
 		}
 
 		// City
 
-		Reporter.log("******************************************************************************");
+		System.out.println("******************************************************************************");
 
 		// -> Checking City are entered or not, If not entered then value will be inserted.
 
@@ -206,19 +206,19 @@ public class RegisterUserDemo {
 
 		if(city.isEnabled()) 
 		{
-			Reporter.log("City is Enabled");
+			System.out.println("City is Enabled");
 			city.sendKeys(cityI);
-			Reporter.log("City is "+ cityI);
+			System.out.println("City is "+ cityI);
 
 		}
 		else
 		{
-			Reporter.log("City name is disabled");
+			System.out.println("City name is disabled");
 		}
 
 		// State
 
-		Reporter.log("******************************************************************************");
+		System.out.println("******************************************************************************");
 
 		// -> Checking state are entered or not, If not entered then value will be inserted.
 
@@ -226,19 +226,19 @@ public class RegisterUserDemo {
 
 		if(state.isEnabled()) 
 		{
-			Reporter.log("State is Enabled");
+			System.out.println("State is Enabled");
 			state.sendKeys(stateI);
-			Reporter.log("State is "+ stateI);
+			System.out.println("State is "+ stateI);
 
 		}
 		else
 		{
-			Reporter.log("State name is disabled");
+			System.out.println("State name is disabled");
 		}
 
 		// Zip-Code
 
-		Reporter.log("******************************************************************************");
+		System.out.println("******************************************************************************");
 
 		// -> Checking Zip-Code are entered or not, If not entered then value will be inserted.
 
@@ -246,18 +246,18 @@ public class RegisterUserDemo {
 
 		if(zipCode.isEnabled()) 
 		{
-			Reporter.log("Zip-code is Enabled");
+			System.out.println("Zip-code is Enabled");
 			zipCode.sendKeys(zipI);
-			Reporter.log("Zip-code is "+ zipI);
+			System.out.println("Zip-code is "+ zipI);
 		}
 		else
 		{
-			Reporter.log("Zip-code name is disabled");
+			System.out.println("Zip-code name is disabled");
 		}
 
 		// Country Drop-Down Menu
 
-		Reporter.log("******************************************************************************");
+		System.out.println("******************************************************************************");
 
 		WebElement cDropDown = driver .findElement(By.xpath("//*[@id='vfb-13-country']"));
 
@@ -265,19 +265,19 @@ public class RegisterUserDemo {
 
 		if(cDropDown.isEnabled()) 
 		{
-			Reporter.log("Country dropdown Enabled");
+			System.out.println("Country dropdown Enabled");
 			cDropDownList.selectByVisibleText(cDD);
-			Reporter.log("Country dropdown "+ cDD);
+			System.out.println("Country dropdown "+ cDD);
 
 		}
 		else
 		{
-			Reporter.log("Country dropdown name is disabled");
+			System.out.println("Country dropdown name is disabled");
 		}
 
 		// E-Mail
 
-		Reporter.log("******************************************************************************");
+		System.out.println("******************************************************************************");
 
 		// -> Checking E-Mail are entered or not, If not entered then value will be inserted.
 
@@ -285,19 +285,19 @@ public class RegisterUserDemo {
 
 		if(e_mail.isEnabled()) 
 		{
-			Reporter.log("E-Mail is Enabled");
+			System.out.println("E-Mail is Enabled");
 			e_mail.sendKeys(eMail);
-			Reporter.log("E-Mail is "+ eMail);
+			System.out.println("E-Mail is "+ eMail);
 
 		}
 		else
 		{
-			Reporter.log("E-Mail name is disabled");
+			System.out.println("E-Mail name is disabled");
 		}
 
 		// Date of Demo
 
-		Reporter.log("******************************************************************************");
+		System.out.println("******************************************************************************");
 
 		// -> Checking Date Of Demo are entered or not, If not entered then value will be inserted.
 
@@ -305,21 +305,21 @@ public class RegisterUserDemo {
 
 		if(dateOfDemo.isEnabled()) 
 		{
-			Reporter.log("Date of Demo is Enabled");
+			System.out.println("Date of Demo is Enabled");
 			dateOfDemo.sendKeys(dOD);
-			Reporter.log("Date of Demo is "+ dOD);
+			System.out.println("Date of Demo is "+ dOD);
 
 		}
 		else
 		{
-			Reporter.log("Date of Demo name is disabled");
+			System.out.println("Date of Demo name is disabled");
 		}
 
 		dateOfDemo.sendKeys(dOD);
 
 		// Convenient Time
 
-		Reporter.log("******************************************************************************");
+		System.out.println("******************************************************************************");
 
 		// -> Hour
 
@@ -331,14 +331,14 @@ public class RegisterUserDemo {
 
 		if(cTimeHour.isEnabled()) 
 		{
-			Reporter.log("Hour is Enabled");
+			System.out.println("Hour is Enabled");
 			cTimeHourList.selectByVisibleText(conTimeHr);
-			Reporter.log("Hour is "+ conTimeHr);
+			System.out.println("Hour is "+ conTimeHr);
 
 		}
 		else
 		{
-			Reporter.log("Hour name is disabled");
+			System.out.println("Hour name is disabled");
 		}
 
 		// -> Minutes
@@ -351,19 +351,19 @@ public class RegisterUserDemo {
 
 		if(cTimeMin.isEnabled()) 
 		{
-			Reporter.log("Minutes is Enabled");
+			System.out.println("Minutes is Enabled");
 			cTimeMinList.selectByVisibleText(conTimeMin);
-			Reporter.log("Minutes is "+ conTimeMin);
+			System.out.println("Minutes is "+ conTimeMin);
 
 		}
 		else
 		{
-			Reporter.log("Minutes is disabled");
+			System.out.println("Minutes is disabled");
 		}
 
 		// Mobile Number
 
-		Reporter.log("******************************************************************************");
+		System.out.println("******************************************************************************");
 
 		// -> Checking Mobile Number are entered or not, If not entered then value will be inserted.
 
@@ -371,32 +371,32 @@ public class RegisterUserDemo {
 
 		if(mobNum.isEnabled()) 
 		{
-			Reporter.log("Mobile Number is Enabled");
+			System.out.println("Mobile Number is Enabled");
 			mobNum.sendKeys(mobileNum);
-			Reporter.log("Mobile Number is "+ mobileNum);
+			System.out.println("Mobile Number is "+ mobileNum);
 
 		}
 		else
 		{
-			Reporter.log("Mobile Number name is disabled");
+			System.out.println("Mobile Number name is disabled");
 		}
 
 		//Query
 
-		Reporter.log("******************************************************************************");
+		System.out.println("******************************************************************************");
 
 		WebElement qUery = driver.findElement(By.id("vfb-23"));
 
 		if(qUery.isEnabled()) 
 		{
-			Reporter.log("Query is Enabled");
+			System.out.println("Query is Enabled");
 			qUery.sendKeys(query);
-			Reporter.log("Query is "+ query);
+			System.out.println("Query is "+ query);
 
 		}
 		else
 		{
-			Reporter.log("Query name is disabled");
+			System.out.println("Query name is disabled");
 		}
 
 		// Course Interested
@@ -405,35 +405,35 @@ public class RegisterUserDemo {
 
 		// -> Checking Courses are Selected or not, If not then select the value.
 
-		Reporter.log("******************************************************************************");
+		System.out.println("******************************************************************************");
 
 		if(coreJava.isSelected()) 
 		{
-			Reporter.log("Core Java checkbox is Selected");
+			System.out.println("Core Java checkbox is Selected");
 		}
 		else
 		{
-			Reporter.log("Core Java checkbox is not Selected");
+			System.out.println("Core Java checkbox is not Selected");
 			coreJava.click();
-			Reporter.log("Core Java checkbox is now Selected");
+			System.out.println("Core Java checkbox is now Selected");
 		}	
 
 		WebElement testNG = driver.findElement(By.xpath("//*[@value = 'TestNG']"));
 
 		if(testNG.isSelected()) 
 		{
-			Reporter.log("Test NG checkbox is Selected");
+			System.out.println("Test NG checkbox is Selected");
 		}
 		else
 		{
-			Reporter.log("Test NG checkbox is not Selected");
+			System.out.println("Test NG checkbox is not Selected");
 			testNG.click();
-			Reporter.log("Test NG checkbox is now Selected");
+			System.out.println("Test NG checkbox is now Selected");
 		}
 
 		// Two Digit Verification
 
-		Reporter.log("******************************************************************************");
+		System.out.println("******************************************************************************");
 
 		WebElement two_Digit = driver.findElement(By.xpath("//*[text()='Example: 99']"));
 
@@ -445,39 +445,39 @@ public class RegisterUserDemo {
 
 		if(two_Dig.isEnabled())
 		{
-			Reporter.log("Two-Digits are Enabled");
+			System.out.println("Two-Digits are Enabled");
 			two_Dig.sendKeys(digit1);
-			Reporter.log("Two Digits are : " + digit1);
+			System.out.println("Two Digits are : " + digit1);
 		}
 		else
 		{
-			Reporter.log("Two-Digits are not Enabled");
+			System.out.println("Two-Digits are not Enabled");
 		}
 
 		// Submit Button
 
-		Reporter.log("******************************************************************************");
+		System.out.println("******************************************************************************");
 
 		WebElement submitBtn = driver.findElement(By.xpath("//*[@id='vfb-4']")) ;
 
 		if(submitBtn.isEnabled())
 		{
-			Reporter.log("Submit button is Enabled");
+			System.out.println("Submit button is Enabled");
 			submitBtn.click();
-			Reporter.log("Submit button is Clicked");
+			System.out.println("Submit button is Clicked");
 		}
 		else
 		{
-			Reporter.log("Submit button is not Enabled");
+			System.out.println("Submit button is not Enabled");
 		}
 
 
-		Reporter.log("User Registered Successfully");
+		System.out.println("User Registered Successfully");
 	}
 	@Test(priority=4)
 	public void validateSuccessFullMsg() {
 
-		Reporter.log("******************************************************************************");
+		System.out.println("******************************************************************************");
 
 		WebElement ValidateTransactionID = driver.findElement(By.xpath("//div[@class='elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7e205e7c']//div[@class='elementor-widget-container']//div[1]"));
 
@@ -492,28 +492,28 @@ public class RegisterUserDemo {
 		
 		if(ValidateTransactionID.isDisplayed())
 		{
-			Reporter.log("Registration Successfull is Displayed");	
-			Reporter.log("Transaction ID is " + transactionID1);
+			System.out.println("Registration Successfull is Displayed");	
+			System.out.println("Transaction ID is " + transactionID1);
 			
 			if(actValMsg.contains(expValMsg))
 			{
-				//Reporter.log("Registration Successful message is Matched");
-				Reporter.log("Actual message -> " + actValMsg);
+				//System.out.println("Registration Successful message is Matched");
+				System.out.println("Actual message -> " + actValMsg);
 			}
 			else
 			{
-				Reporter.log("Registration Successfull message is not Matched");
-				Reporter.log("Actual message -> " + actValMsg);
-				Reporter.log("Expected message -> " + expValMsg);
+				System.out.println("Registration Successfull message is not Matched");
+				System.out.println("Actual message -> " + actValMsg);
+				System.out.println("Expected message -> " + expValMsg);
 			}
 		}
 		else
 		{
-			Reporter.log("Registration is not Displayed");
+			System.out.println("Registration is not Displayed");
 		}
 
 
-		Reporter.log("Validation is Successfull");
+		System.out.println("Validation is Successfull");
 	}
 
 	@Test(priority=5)
@@ -521,7 +521,7 @@ public class RegisterUserDemo {
 
 		driver.close();
 
-		Reporter.log("Application Closed Successfully"); 
+		System.out.println("Application Closed Successfully"); 
 	}
 
 }
