@@ -27,7 +27,7 @@ public class RegisterUserDemo {
 	String dOD = "01/08/2022";                  //Date of Demo
 	String conTimeHr = "08";                    //Hour Selection
 	String conTimeMin = "55";                   //Minute Selection
-	String mobileNum = "5557894561";            //Mobile number
+	String mobileNum = "8745999499";            //Mobile number
 	String query ="Enter your query"; 
 
 	@Test(priority=1)
@@ -88,7 +88,11 @@ public class RegisterUserDemo {
 		}
 		else
 		{
+<<<<<<< HEAD
 			System.out.println("Registration is not Displayed");
+=======
+			Reporter.log("Registration is not Displayed ");
+>>>>>>> 9fb58000bae249cc7b64ad6594ef1939f07ae745
 		}
 
 		System.out.println("Registraion Form opened Successfully");
